@@ -72,29 +72,26 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/skill"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: '2px' }}
-                />{' '}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <CgFileDocument style={{ marginBottom: '2px' }} /> Resume
+                />
+                Skill
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/projects"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: '2px' }} /> Blogs
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: '2px' }}
+                />
+                Projects
               </Nav.Link>
             </Nav.Item>
 

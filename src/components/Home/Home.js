@@ -4,7 +4,8 @@ import homeLogo from '../../Assets/home-main.svg';
 import Particle from '../Particle';
 import Home2 from './Home2';
 import Type from './Type';
-import Techstack from '../About/Techstack';
+import Skill from '../Skill/Skill';
+import Toolstack from '../Skill/ToolStack';
 import {
   AiFillGithub,
   AiOutlineTwitter,

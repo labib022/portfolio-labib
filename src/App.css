@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.project-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+.project-card {
+  margin-bottom: 30px;
+}

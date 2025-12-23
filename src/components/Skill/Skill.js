@@ -11,7 +11,7 @@ import Redux from '../../Assets/TechIcons/Redux.svg';
 import Tailwind from '../../Assets/TechIcons/Tailwind.svg';
 import MUI from '../../Assets/TechIcons/MUI.svg';
 
-function Techstack() {
+function Skill() {
   return (
     <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
       <Col xs={4} md={2} className="tech-icons">
@@ -60,7 +60,10 @@ function Techstack() {
         <div className="tech-icons-text">Material UI</div>
       </Col>
     </Row>
-  );
+    );
+    
 }
 
-export default Techstack;
+
+
+export default Skill;
